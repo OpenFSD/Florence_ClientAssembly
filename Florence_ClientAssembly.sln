@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Florence_ClientAssembly", "Florence_ClientAssembly.csproj", "{BACADA5C-8D04-4FAF-84EF-3D2B649E29FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BACADA5C-8D04-4FAF-84EF-3D2B649E29FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACADA5C-8D04-4FAF-84EF-3D2B649E29FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACADA5C-8D04-4FAF-84EF-3D2B649E29FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACADA5C-8D04-4FAF-84EF-3D2B649E29FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51F7240E-53D1-40C5-9153-5A58C0C0C964}
+	EndGlobalSection
+EndGlobal
