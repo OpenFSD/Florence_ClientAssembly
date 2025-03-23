@@ -10,14 +10,16 @@ Edition: Windows 11 Home OEM System Builder
 
 Version: 24H2
 
-### Using Microsoft Visual Studio Professional 2019
+### Using Microsoft Visual Studio Professional 2022 (64-bit).
 
-Version 16.11.45
+Version 17.13.4
 
-## Dependencies.
+## Copendencies.
 ### Florence Server Assembly.
  - https://github.com/OpenFSD/Florence_ServerAssembly
 
+
+## Dependencies.
 ### Server Dynamic Link Library.
  - https://github.com/OpenFSD/ServerAssembly_lib
 
@@ -31,7 +33,10 @@ Version 16.11.45
 - https://github.com/ValveSoftware/GameNetworkingSockets
 - https://github.com/ValveSoftware/GameNetworkingSockets/blob/master/BUILDING.md
 
+### OpenTK
+Version: 2.0
+
 ### .Net.
-Version: 4.8.09032
+Version: .Net 8.0
 
 ## Development History.
