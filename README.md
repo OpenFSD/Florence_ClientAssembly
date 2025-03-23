@@ -20,9 +20,6 @@ Version 17.13.4
 
 
 ## Dependencies.
-### Server Dynamic Link Library.
- - https://github.com/OpenFSD/ServerAssembly_lib
-
 ### WriteEnableForStacks.
  - https://github.com/OpenFSD/Wait-WriteEnableForStackEvent_lib
 
