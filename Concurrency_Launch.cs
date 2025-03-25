@@ -18,26 +18,26 @@ namespace Florence.Concurrency
     [SuppressUnmanagedCodeSecurity]
     public static class ConcurrentQue_Client
     {
-        [DllImport("WaitLaunch_Client_ConcurrentThread.dll", CharSet = CharSet.Unicode)]
+        [DllImport("WaitLaunch_Client_ConcurrentThread_lib.dll", CharSet = CharSet.Unicode)]
         public static extern void Create_ConcurrentQue();
 
-        [DllImport("WaitLaunch_Client_ConcurrentThread.dll", CharSet = CharSet.Unicode)]
+        [DllImport("WaitLaunch_Client_ConcurrentThread_lib.dll", CharSet = CharSet.Unicode)]
         public static extern void Request_Wait_Launch_ConcurrentThread(ushort concurrent_coreId);
 
-        [DllImport("WaitLaunch_Client_ConcurrentThread.dll", CharSet = CharSet.Unicode)]
+        [DllImport("WaitLaunch_Client_ConcurrentThread_lib.dll", CharSet = CharSet.Unicode)]
         public static extern void ConcurrentThread_End(ushort concurrent_coreId);
     }
     
     [SuppressUnmanagedCodeSecurity]
     public static class ConcurrentQue_Server
     {
-        [DllImport("WaitLaunch_Server_ConcurrentThread.dll", CharSet = CharSet.Unicode)]
+        [DllImport("WaitLaunch_Server_ConcurrentThread_lib.dll", CharSet = CharSet.Unicode)]
         public static extern void Create_ConcurrentQue();
 
-        [DllImport("WaitLaunch_Server_ConcurrentThread.dll", CharSet = CharSet.Unicode)]
+        [DllImport("WaitLaunch_Server_ConcurrentThread_lib.dll", CharSet = CharSet.Unicode)]
         public static extern void Request_Wait_Launch_ConcurrentThread(ushort concurrent_coreId);
 
-        [DllImport("WaitLaunch_Server_ConcurrentThread.dll", CharSet = CharSet.Unicode)]
+        [DllImport("WaitLaunch_Server_ConcurrentThread_lib.dll", CharSet = CharSet.Unicode)]
         public static extern void ConcurrentThread_End(ushort concurrent_coreId);
     }
 }
