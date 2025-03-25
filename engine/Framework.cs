@@ -19,12 +19,16 @@ namespace Florence.ClientAssembly
 
             client.GetExecute().Initialise_Threads(Framework.GetClient().GetGlobal().Get_NumCores());
 
+            Florence.Concurrency.ConcurrentQue_Client.Create_ConcurrentQue();
+            
+            Florence.WriteEnable.Stack_Client_OutputRecieve.Create_WriteEnable();
+
             Florence.NetworkingClient.Networking.CreateNetworkingClient();
             StringBuilder errorMessage = new StringBuilder(1024);//ToDo
             Valve.Sockets.NetworkingIdentity indentiy = Florence.NetworkingClient.Networking.Get_Identity();//ToDo
             Valve.Sockets.Library.Initialize(ref indentiy, errorMessage);//ToDo
 
-            Framework.GetClient().GetExecute().Create_And_Run_Graphics();
+            Framework.GetClient().GetExecute().Create_And_Run_Graphics();//ToDo re enable
 
             System.Console.WriteLine("Florence.ClientAssembly: Framework");//TEST
         }
